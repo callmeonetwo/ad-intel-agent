@@ -1,0 +1,1162 @@
+{
+ "snapshot": "2026-10-22",
+ "ads": {
+  "totals": {
+   "ads": 60,
+   "labeled": 60,
+   "brand_ads": 25,
+   "marketplace_ads": 31,
+   "off_niche_ads": 4,
+   "all_ads_still_active": true,
+   "brands": 20,
+   "unique_brand_copies": 24,
+   "winners_90d": 20,
+   "median_days_live_brand": 182
+  },
+  "segments": {
+   "marketplace": 31,
+   "brand": 25,
+   "off_niche": 4
+  },
+  "display_format_all": {
+   "DPA": 47,
+   "DCO": 5,
+   "IMAGE": 4,
+   "VIDEO": 4
+  },
+  "display_format_brand": {
+   "DPA": 16,
+   "DCO": 4,
+   "VIDEO": 3,
+   "IMAGE": 2
+  },
+  "creative_format_brand": {
+   "catalog": 20,
+   "product_video": 2,
+   "influencer": 1,
+   "other": 1,
+   "graphic": 1
+  },
+  "hook_type_brand": {
+   "statement": 13,
+   "offer": 6,
+   "benefit_list": 4,
+   "promise": 2
+  },
+  "offer_brand": {
+   "none": 17,
+   "discount": 5,
+   "guarantee": 2,
+   "bnpl": 1
+  },
+  "emotion_brand": {
+   "aspiration": 9,
+   "trust": 6,
+   "joy": 5,
+   "fomo": 4,
+   "neutral": 1
+  },
+  "cta_brand": {
+   "shop": 22,
+   "profile_visit": 3
+  },
+  "angles_brand": [
+   [
+    "discount",
+    3
+   ],
+   [
+    "tummy control",
+    2
+   ],
+   [
+    "fast shipping",
+    1
+   ],
+   [
+    "discount code",
+    1
+   ],
+   [
+    "premium swimwear",
+    1
+   ],
+   [
+    "nude swimwear",
+    1
+   ],
+   [
+    "summer swimwear",
+    1
+   ],
+   [
+    "buy now pay later",
+    1
+   ],
+   [
+    "bigger bust support",
+    1
+   ],
+   [
+    "bikinis",
+    1
+   ],
+   [
+    "seasonal discount",
+    1
+   ],
+   [
+    "luxury swimwear",
+    1
+   ]
+  ],
+  "longevity_brand": {
+   "90+ days": 20,
+   "30-89 days": 5
+  },
+  "social_proof_share_brand": 12.0,
+  "urgency_share_brand": 0.0,
+  "template_copy_share_marketplace": 93.5,
+  "median_days_by_display_format": [
+   {
+    "group": "IMAGE",
+    "n": 2,
+    "median": 373
+   },
+   {
+    "group": "DPA",
+    "n": 16,
+    "median": 222
+   },
+   {
+    "group": "VIDEO",
+    "n": 3,
+    "median": 167
+   },
+   {
+    "group": "DCO",
+    "n": 4,
+    "median": 66
+   }
+  ],
+  "median_days_by_hook": [
+   {
+    "group": "promise",
+    "n": 2,
+    "median": 834
+   },
+   {
+    "group": "benefit_list",
+    "n": 4,
+    "median": 237
+   },
+   {
+    "group": "statement",
+    "n": 13,
+    "median": 206
+   },
+   {
+    "group": "offer",
+    "n": 6,
+    "median": 152
+   }
+  ],
+  "median_days_by_creative_format": [
+   {
+    "group": "catalog",
+    "n": 20,
+    "median": 180
+   },
+   {
+    "group": "product_video",
+    "n": 2,
+    "median": 174
+   }
+  ],
+  "median_days_by_offer": [
+   {
+    "group": "guarantee",
+    "n": 2,
+    "median": 268
+   },
+   {
+    "group": "none",
+    "n": 17,
+    "median": 237
+   },
+   {
+    "group": "discount",
+    "n": 5,
+    "median": 163
+   }
+  ],
+  "long_runners_vs_newer": [
+   {
+    "feature": "social proof",
+    "share_in_live_90d_plus": 5.0,
+    "share_in_newer_still_running": 40.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   },
+   {
+    "feature": "urgency",
+    "share_in_live_90d_plus": 0.0,
+    "share_in_newer_still_running": 0.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   },
+   {
+    "feature": "any offer",
+    "share_in_live_90d_plus": 35.0,
+    "share_in_newer_still_running": 20.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   },
+   {
+    "feature": "video format",
+    "share_in_live_90d_plus": 15.0,
+    "share_in_newer_still_running": 0.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   },
+   {
+    "feature": "catalog/DPA format",
+    "share_in_live_90d_plus": 75.0,
+    "share_in_newer_still_running": 20.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   },
+   {
+    "feature": "dynamic creative (DCO)",
+    "share_in_live_90d_plus": 0.0,
+    "share_in_newer_still_running": 80.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   },
+   {
+    "feature": "template copy",
+    "share_in_live_90d_plus": 40.0,
+    "share_in_newer_still_running": 0.0,
+    "n_live_90d_plus": 20,
+    "n_newer": 5
+   }
+  ],
+  "per_brand": [
+   {
+    "brand": "SHEIN",
+    "segment": "marketplace",
+    "ads": 22,
+    "unique_copies": 19,
+    "median_days_live": 23.0,
+    "max_days_live": 50,
+    "formats": {
+     "DPA": 22
+    },
+    "hooks": {
+     "statement": 14,
+     "offer": 5,
+     "benefit_list": 2,
+     "shock": 1
+    },
+    "angles": [
+     "trend fashion",
+     "new arrivals",
+     "deals"
+    ],
+    "offers": {
+     "none": 20,
+     "discount": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 95.5
+   },
+   {
+    "brand": "Bravissimo",
+    "segment": "brand",
+    "ads": 5,
+    "unique_copies": 5,
+    "median_days_live": 237,
+    "max_days_live": 330,
+    "formats": {
+     "DPA": 5
+    },
+    "hooks": {
+     "benefit_list": 3,
+     "statement": 2
+    },
+    "angles": [
+     "bigger bust support",
+     "bigger bust fit",
+     "perfect fit"
+    ],
+    "offers": {
+     "none": 3,
+     "guarantee": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 60.0
+   },
+   {
+    "brand": "Triangl Swimwear",
+    "segment": "brand",
+    "ads": 4,
+    "unique_copies": 4,
+    "median_days_live": 66.0,
+    "max_days_live": 70,
+    "formats": {
+     "DCO": 4
+    },
+    "hooks": {
+     "statement": 3,
+     "offer": 1
+    },
+    "angles": [
+     "summer swimwear",
+     "buy now pay later",
+     "new colour"
+    ],
+    "offers": {
+     "none": 3,
+     "bnpl": 1
+    },
+    "social_proof_share": 50.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Innovare Denim",
+    "segment": "brand",
+    "ads": 4,
+    "unique_copies": 3,
+    "median_days_live": 163.0,
+    "max_days_live": 197,
+    "formats": {
+     "DPA": 4
+    },
+    "hooks": {
+     "offer": 4
+    },
+    "angles": [
+     "discount",
+     "seasonal discount"
+    ],
+    "offers": {
+     "discount": 4
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 75.0
+   },
+   {
+    "brand": "SHEIN CURVE",
+    "segment": "marketplace",
+    "ads": 3,
+    "unique_copies": 3,
+    "median_days_live": 48,
+    "max_days_live": 70,
+    "formats": {
+     "DPA": 3
+    },
+    "hooks": {
+     "offer": 2,
+     "statement": 1
+    },
+    "angles": [
+     "plus size fashion",
+     "deals"
+    ],
+    "offers": {
+     "none": 3
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 66.7
+   },
+   {
+    "brand": "SHEIN MEN",
+    "segment": "marketplace",
+    "ads": 3,
+    "unique_copies": 3,
+    "median_days_live": 83,
+    "max_days_live": 97,
+    "formats": {
+     "DPA": 3
+    },
+    "hooks": {
+     "statement": 2,
+     "none": 1
+    },
+    "angles": [
+     "men's style",
+     "style",
+     "men's fashion"
+    ],
+    "offers": {
+     "none": 3
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Alibaba.com",
+    "segment": "marketplace",
+    "ads": 3,
+    "unique_copies": 3,
+    "median_days_live": 190,
+    "max_days_live": 221,
+    "formats": {
+     "DPA": 3
+    },
+    "hooks": {
+     "none": 2,
+     "statement": 1
+    },
+    "angles": [
+     "b2b sourcing"
+    ],
+    "offers": {
+     "none": 3
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "BellabarnettSwimwear",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 2,
+    "median_days_live": 1276.5,
+    "max_days_live": 1487,
+    "formats": {
+     "DPA": 2
+    },
+    "hooks": {
+     "promise": 1,
+     "statement": 1
+    },
+    "angles": [
+     "fast shipping",
+     "new arrival"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 50.0,
+    "template_copy_share": 50.0
+   },
+   {
+    "brand": "Inalbis",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 2,
+    "median_days_live": 373.0,
+    "max_days_live": 467,
+    "formats": {
+     "IMAGE": 2
+    },
+    "hooks": {
+     "statement": 2
+    },
+    "angles": [
+     "bikinis",
+     "summer vibes"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Gianelle",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 2,
+    "median_days_live": 237.0,
+    "max_days_live": 237,
+    "formats": {
+     "DPA": 2
+    },
+    "hooks": {
+     "statement": 2
+    },
+    "angles": [
+     "luxury swimwear",
+     "summer vacation"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 50.0
+   },
+   {
+    "brand": "Innovare Denim-Official",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 138,
+    "max_days_live": 138,
+    "formats": {
+     "DPA": 1
+    },
+    "hooks": {
+     "offer": 1
+    },
+    "angles": [
+     "discount code"
+    ],
+    "offers": {
+     "discount": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "DOLL Swimwear",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 140,
+    "max_days_live": 140,
+    "formats": {
+     "DPA": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "premium swimwear"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Martha Eyewear",
+    "segment": "off_niche",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 768,
+    "max_days_live": 768,
+    "formats": {
+     "IMAGE": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "resort collection"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Hannah Reeve",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 101,
+    "max_days_live": 101,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "nude swimwear"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Sunny bee",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 167,
+    "max_days_live": 167,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "tummy control"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Modlily Swimsuits",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 42,
+    "max_days_live": 42,
+    "formats": {
+     "DPA": 1
+    },
+    "hooks": {
+     "benefit_list": 1
+    },
+    "angles": [
+     "tummy control"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Berlook",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 182,
+    "max_days_live": 182,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "promise": 1
+    },
+    "angles": [
+     "sustainability"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Baru Swimwear",
+    "segment": "off_niche",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 266,
+    "max_days_live": 266,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "artisan craft"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Tucann",
+    "segment": "off_niche",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 127,
+    "max_days_live": 127,
+    "formats": {
+     "IMAGE": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "premium quality"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "JM Swimwear/Bikini Manufacturer",
+    "segment": "off_niche",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 23,
+    "max_days_live": 23,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "craftsmanship"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   }
+  ],
+  "longest_running_examples": [
+   {
+    "brand": "BellabarnettSwimwear",
+    "format": "DPA",
+    "days_live": 1487,
+    "start": "2022-09-26",
+    "url": "https://www.facebook.com/ads/library/?id=391352993030237",
+    "headline": "Bellabarnett",
+    "text": "😘𝙎𝙝𝙤𝙥 𝙉𝙚𝙬 𝘼𝙧𝙧𝙞𝙫𝙖𝙡𝙨\n✈Shipped Out In 24 hours\n👉Choice Of 100k Customers, Bella",
+    "hook_type": "promise",
+    "angle": "fast shipping",
+    "main_promise": "Shipped out in 24 hours",
+    "offer": "none",
+    "social_proof": "Choice of 100k customers"
+   },
+   {
+    "brand": "BellabarnettSwimwear",
+    "format": "DPA",
+    "days_live": 1066,
+    "start": "2023-04-30",
+    "url": "https://www.facebook.com/ads/library/?id=2601215323365922",
+    "headline": "Emily Metallic Gold Maxi Dress",
+    "text": "❤️NEW arrival\n👇Pick your favourite!",
+    "hook_type": "statement",
+    "angle": "new arrival",
+    "main_promise": "New arrival dress selection to choose from",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Inalbis",
+    "format": "IMAGE",
+    "days_live": 467,
+    "start": "2025-07-12",
+    "url": "https://www.facebook.com/ads/library/?id=749872657571548",
+    "headline": null,
+    "text": "Discover our bikinis and follow us for more summer vibes!",
+    "hook_type": "statement",
+    "angle": "bikinis",
+    "main_promise": "Bikinis and summer content on Instagram",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Bravissimo",
+    "format": "DPA",
+    "days_live": 330,
+    "start": "2025-11-26",
+    "url": "https://www.facebook.com/ads/library/?id=1166483622216269",
+    "headline": "Shock Absorber Active Multi Sports Bra  -  Grey",
+    "text": "Time to find your perfect fit ✨ Discover our much-loved lingerie & cup-sized swimwear in-store or online. Free returns & exchanges 💞",
+    "hook_type": "benefit_list",
+    "angle": "perfect fit",
+    "main_promise": "Find the right fit with free returns and exchanges",
+    "offer": "guarantee",
+    "social_proof": ""
+   },
+   {
+    "brand": "Inalbis",
+    "format": "IMAGE",
+    "days_live": 279,
+    "start": "2026-01-16",
+    "url": "https://www.facebook.com/ads/library/?id=26292913606967322",
+    "headline": null,
+    "text": "Discover our bikinis and follow us for more summer vibes",
+    "hook_type": "statement",
+    "angle": "summer vibes",
+    "main_promise": "Summer bikini inspiration and follow for more",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Bravissimo",
+    "format": "DPA",
+    "days_live": 237,
+    "start": "2026-02-27",
+    "url": "https://www.facebook.com/ads/library/?id=888151260723561",
+    "headline": "Shock Absorber Active Multi Sports Bra  -  Grey",
+    "text": "Shop all-day comfort with lingerie and swimwear that’s expertly designed for bigger boobs💕",
+    "hook_type": "benefit_list",
+    "angle": "bigger bust support",
+    "main_promise": "Supportive comfort for bigger busts",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Gianelle",
+    "format": "DPA",
+    "days_live": 237,
+    "start": "2026-02-27",
+    "url": "https://www.facebook.com/ads/library/?id=1208116604417007",
+    "headline": "LEMON TOWELLING THREE PIECE",
+    "text": "Forever Vacay 🌴💖 Discover luxury swimwear for your winter sun. Shop the collection.",
+    "hook_type": "statement",
+    "angle": "luxury swimwear",
+    "main_promise": "Luxury swimwear for sunny getaways",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Bravissimo",
+    "format": "DPA",
+    "days_live": 237,
+    "start": "2026-02-27",
+    "url": "https://www.facebook.com/ads/library/?id=1493018952242026",
+    "headline": "Bravissimo",
+    "text": "Love the fit? Explore our full range of lingerie and swimwear designed for bigger boobs - comfort from every angle 💕",
+    "hook_type": "statement",
+    "angle": "bigger bust fit",
+    "main_promise": "Comfortable lingerie and swimwear for bigger boobs",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Bravissimo",
+    "format": "DPA",
+    "days_live": 237,
+    "start": "2026-02-27",
+    "url": "https://www.facebook.com/ads/library/?id=1439549124317543",
+    "headline": "Shock Absorber Active Multi Sports Bra  -  Black",
+    "text": "Shop all-day comfort with lingerie and swimwear that’s expertly designed for bigger boobs💕",
+    "hook_type": "benefit_list",
+    "angle": "comfort",
+    "main_promise": "All-day comfort designed for bigger busts",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Gianelle",
+    "format": "DPA",
+    "days_live": 237,
+    "start": "2026-02-27",
+    "url": "https://www.facebook.com/ads/library/?id=949865474657676",
+    "headline": "PINK SHIMMER STRING BIKINI",
+    "text": "Forever Vacay 🌴💖 Discover luxury swimwear for your summer sun. Shop the collection.",
+    "hook_type": "statement",
+    "angle": "summer vacation",
+    "main_promise": "Luxury swimwear for summer sun",
+    "offer": "none",
+    "social_proof": ""
+   }
+  ]
+ },
+ "reels": {
+  "accounts_not_found": [
+   "gianelle_swimwear",
+   "berlook_official"
+  ],
+  "brand_reels": 14,
+  "collab_reels": 1,
+  "median_views": 79976,
+  "max_views": 229708,
+  "min_views": 41208,
+  "median_engagement_rate": 0.86,
+  "median_duration_s": 16.0,
+  "original_audio_share": 85.7,
+  "views_by_duration": {
+   "<15s": {
+    "n": 5,
+    "median_views": 54114
+   },
+   "15-20s": {
+    "n": 7,
+    "median_views": 92078
+   },
+   "20s+": {
+    "n": 2,
+    "median_views": 78024
+   }
+  },
+  "views_by_audio": {
+   "original": {
+    "n": 12,
+    "median_views": 75677
+   },
+   "licensed": {
+    "n": 2,
+    "median_views": 139646
+   }
+  },
+  "views_by_promo_caption": {
+   "promo/offer in caption": {
+    "n": 3,
+    "median_views": 73724
+   },
+   "no offer": {
+    "n": 11,
+    "median_views": 82323
+   }
+  },
+  "top_hashtag": "TrianglGirls",
+  "top_hashtag_share": 100.0,
+  "reels": [
+   {
+    "account": "jayneejaynee",
+    "segment": "creator_collab",
+    "url": "https://www.instagram.com/p/Dc-os0RSMt4/",
+    "date": "2026-09-07",
+    "views": 678127,
+    "views_vs_median": 8.48,
+    "likes": null,
+    "comments": 343,
+    "engagement_rate": null,
+    "duration_s": 59.1,
+    "audio": "licensed: Jamaican (Bam Bam)",
+    "caption": "When the marketing team ask me to create content, this is what they get 😂😂. Designed, styled & choreographed (lol) by me, for @triangl ❣️❣️❣️",
+    "hook_type": "ugc",
+    "angle": "creator humor",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DdsEZgGBtZ4/",
+    "date": "2026-09-23",
+    "views": 229708,
+    "views_vs_median": 2.87,
+    "likes": 2586,
+    "comments": 16,
+    "engagement_rate": 1.13,
+    "duration_s": 15.2,
+    "audio": "original",
+    "caption": "Pool ready 💛 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "lifestyle",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/Db5fBTKhHpx/",
+    "date": "2026-08-11",
+    "views": 187214,
+    "views_vs_median": 2.34,
+    "likes": 725,
+    "comments": 2,
+    "engagement_rate": 0.39,
+    "duration_s": 16.6,
+    "audio": "licensed: Mas Que Nada (feat. The Black Eyed Peas)",
+    "caption": "New colourways 🍏 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "new colours",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DcUfHfUhmkD/",
+    "date": "2026-08-21",
+    "views": 166467,
+    "views_vs_median": 2.08,
+    "likes": 1415,
+    "comments": 10,
+    "engagement_rate": 0.86,
+    "duration_s": 16.4,
+    "audio": "original",
+    "caption": "Locker room 👟 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "lifestyle styling",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DeoeOrAM7v-/",
+    "date": "2026-10-18",
+    "views": 101219,
+    "views_vs_median": 1.27,
+    "likes": 943,
+    "comments": 6,
+    "engagement_rate": 0.94,
+    "duration_s": 14.7,
+    "audio": "original",
+    "caption": "At the club 🏓 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "lifestyle",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DdNK5nehBks/",
+    "date": "2026-09-12",
+    "views": 92078,
+    "views_vs_median": 1.15,
+    "likes": 942,
+    "comments": 2,
+    "engagement_rate": 1.03,
+    "duration_s": 15.7,
+    "audio": "licensed: Sadeness",
+    "caption": "Sunset sparkles ✨@selinaasici #TrianglGirls",
+    "hook_type": "ugc",
+    "angle": "lifestyle",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DeQRuAVTg42/",
+    "date": "2026-10-09",
+    "views": 86633,
+    "views_vs_median": 1.08,
+    "likes": 540,
+    "comments": 6,
+    "engagement_rate": 0.63,
+    "duration_s": 18.9,
+    "audio": "original",
+    "caption": "Style COOKIE with us ☀️ Bundle and save when you purchase matching shorts with your set #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "bundle savings",
+    "offer": "discount"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/Dcsg2WmxKwP/",
+    "date": "2026-08-31",
+    "views": 82323,
+    "views_vs_median": 1.03,
+    "likes": 451,
+    "comments": 2,
+    "engagement_rate": 0.55,
+    "duration_s": 30.2,
+    "audio": "original",
+    "caption": "Neoprene is one of our most iconic and popular fabrications 🍡 Here’s what you should know #TrianglGirls",
+    "hook_type": "question",
+    "angle": "fabric education",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/Db-omjThyms/",
+    "date": "2026-08-13",
+    "views": 77630,
+    "views_vs_median": 0.97,
+    "likes": 433,
+    "comments": 3,
+    "engagement_rate": 0.56,
+    "duration_s": 16.8,
+    "audio": "original",
+    "caption": "Enroute to the pool 🩵 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "lifestyle",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DeihOdHRO7W/",
+    "date": "2026-10-16",
+    "views": 73724,
+    "views_vs_median": 0.92,
+    "likes": 282,
+    "comments": 8,
+    "engagement_rate": 0.39,
+    "duration_s": 27.9,
+    "audio": "original",
+    "caption": "WIN // $1000 bikini voucher @sofiareparto 🌞\nWhat would you choose ? #TrianglGirls",
+    "hook_type": "offer",
+    "angle": "giveaway",
+    "offer": "giveaway"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DcPXyEGz3We/",
+    "date": "2026-08-19",
+    "views": 73719,
+    "views_vs_median": 0.92,
+    "likes": 829,
+    "comments": 7,
+    "engagement_rate": 1.13,
+    "duration_s": 10.2,
+    "audio": "original",
+    "caption": "MIMA - INK CONFETTI 💙 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "print launch",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DcBLsSJzkkg/",
+    "date": "2026-08-14",
+    "views": 65864,
+    "views_vs_median": 0.82,
+    "likes": 318,
+    "comments": 0,
+    "engagement_rate": 0.48,
+    "duration_s": 18.7,
+    "audio": "original",
+    "caption": "Endless summer ☀️ #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "summer mood",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DebmS2BOH4y/",
+    "date": "2026-10-13",
+    "views": 54114,
+    "views_vs_median": 0.68,
+    "likes": 502,
+    "comments": 10,
+    "engagement_rate": 0.95,
+    "duration_s": 11.7,
+    "audio": "original",
+    "caption": "Shop new TUSCAN SPLASH online now 🍋 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "new arrival",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DefdbnsuO92/",
+    "date": "2026-10-15",
+    "views": 43738,
+    "views_vs_median": 0.55,
+    "likes": 470,
+    "comments": 3,
+    "engagement_rate": 1.08,
+    "duration_s": 6.9,
+    "audio": "original",
+    "caption": "VINCA - TUSCAN SPLASH 💛 #TrianglGirls",
+    "hook_type": "statement",
+    "angle": "print launch",
+    "offer": "none"
+   },
+   {
+    "account": "triangl",
+    "segment": "brand",
+    "url": "https://www.instagram.com/p/DepwnNTs5og/",
+    "date": "2026-10-18",
+    "views": 41208,
+    "views_vs_median": 0.52,
+    "likes": 351,
+    "comments": 5,
+    "engagement_rate": 0.86,
+    "duration_s": 8.8,
+    "audio": "original",
+    "caption": "Summer dressing 💛Join our mailing list for the chance to win a $1000 voucher. First winner drawn this Thursday #TrianglGirls",
+    "hook_type": "offer",
+    "angle": "giveaway",
+    "offer": "giveaway"
+   }
+  ]
+ },
+ "vs_previous": null
+}

@@ -1,0 +1,59 @@
+{
+  "swimwear_uk": {
+    "title": "Women's swimwear, DTC fashion (UK)",
+    "country": "GB",
+    "ads": {
+      "file": "data/raw/swimwear_uk_ads.jsonl",
+      "apify_dataset": "wAV8ihS9hGOBbt2OP",
+      "search_queries": [
+        "swimwear",
+        "bikini"
+      ],
+      "page_urls": [],
+      "max_ads": 60
+    },
+    "reels": {
+      "file": "data/raw/triangl_reels.jsonl",
+      "apify_dataset": "KZMYPsEwyljAe6Q8G",
+      "usernames": [
+        "triangl",
+        "gianelle_swimwear",
+        "berlook_official"
+      ],
+      "results_limit": 15
+    },
+    "marketplaces": [
+      "SHEIN",
+      "SHEIN CURVE",
+      "SHEIN MEN",
+      "Alibaba.com"
+    ],
+    "client_brief": "A DTC swimwear brand selling to women 25-40 in the UK, price point between SHEIN and Triangl.",
+    "off_niche": [
+      "JM Swimwear/Bikini Manufacturer",
+      "Baru Swimwear",
+      "Tucann",
+      "Martha Eyewear"
+    ],
+    "off_niche_reason": "B2B manufacturers/wholesale, menswear or accessories: kept in the data, excluded from brand stats"
+  },
+  "ai_tools_us": {
+    "title": "AI tools and apps (US)",
+    "country": "US",
+    "ads": {
+      "file": "data/raw/ai_tools_us_ads.jsonl",
+      "apify_dataset": "sfbmYZsgEDkw9rFLI",
+      "search_queries": [
+        "AI video generator",
+        "AI writing assistant",
+        "AI photo editor app"
+      ],
+      "page_urls": [],
+      "max_ads": 120
+    },
+    "reels": null,
+    "marketplaces": [],
+    "client_brief": "An early-stage AI SaaS or mobile app (writing, photo or video) planning its first paid social campaigns in the US.",
+    "off_niche": []
+  }
+}

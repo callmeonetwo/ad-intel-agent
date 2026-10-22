@@ -1,0 +1,49 @@
+{
+ "snapshot": "2026-10-22",
+ "totals": {
+  "ads": 60,
+  "labeled": 60,
+  "brand_ads": 25,
+  "marketplace_ads": 31,
+  "off_niche_ads": 4,
+  "all_ads_still_active": true,
+  "brands": 20,
+  "unique_brand_copies": 24,
+  "winners_90d": 20,
+  "median_days_live_brand": 182
+ },
+ "brands": {
+  "SHEIN": 22,
+  "Bravissimo": 5,
+  "Triangl Swimwear": 4,
+  "Innovare Denim": 4,
+  "SHEIN CURVE": 3,
+  "SHEIN MEN": 3,
+  "Alibaba.com": 3,
+  "BellabarnettSwimwear": 2,
+  "Inalbis": 2,
+  "Gianelle": 2,
+  "Innovare Denim-Official": 1,
+  "DOLL Swimwear": 1,
+  "Martha Eyewear": 1,
+  "Hannah Reeve": 1,
+  "Sunny bee": 1,
+  "Modlily Swimsuits": 1,
+  "Berlook": 1,
+  "Baru Swimwear": 1,
+  "Tucann": 1,
+  "JM Swimwear/Bikini Manufacturer": 1
+ },
+ "display_format_brand": {
+  "DPA": 16,
+  "DCO": 4,
+  "VIDEO": 3,
+  "IMAGE": 2
+ },
+ "hook_type_brand": {
+  "statement": 13,
+  "offer": 6,
+  "benefit_list": 4,
+  "promise": 2
+ }
+}

@@ -1,0 +1,216 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Roman Huber · AI Marketing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Portfolio of Roman Huber: AI agents for marketing built with Claude. Case study: Ad Intel Agent.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; the case study gets a pipeline strip, a numbers row and evidence cards; side projects as two cards. */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#15171c; --muted:#596070; --line:#dfe2e8;
+  --accent:#0f6e6e; --accent-soft:#e3f0ef; --mark:#a8620e; --code:#eef0f3;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121417; --surface:#1a1d22; --ink:#e9ebef; --muted:#a2a8b5; --line:#2b2f37;
+  --accent:#5cc2c0; --accent-soft:#183232; --mark:#e0a458; --code:#20242b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121417; --surface:#1a1d22; --ink:#e9ebef; --muted:#a2a8b5; --line:#2b2f37;
+  --accent:#5cc2c0; --accent-soft:#183232; --mark:#e0a458; --code:#20242b; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:860px;margin:0 auto;padding-block:48px 72px;display:grid;gap:56px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(34px,6vw,52px);font-weight:700;letter-spacing:-.01em}
+h2{font-size:clamp(26px,4vw,34px);font-weight:700}
+h3{font-size:19px;font-weight:600}
+p{margin:0;max-width:66ch}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+.label{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.stack{display:grid;gap:14px}
+header .role{font-size:20px;color:var(--muted);max-width:60ch}
+.contacts{display:flex;flex-wrap:wrap;gap:8px 22px;font:14px var(--mono);color:var(--muted)}
+.contacts span b{color:var(--ink);font-weight:500}
+.section{display:grid;gap:22px;border-top:1px solid var(--line);padding-top:28px}
+.lead{font-size:18px}
+.pipeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;counter-reset:step}
+.pipeline li{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px;display:grid;gap:4px;align-content:start;min-width:0}
+.pipeline li::before{counter-increment:step;content:"step " counter(step);font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.pipeline b{font-family:var(--display);font-size:16px}
+.pipeline span{font-size:13px;color:var(--muted);line-height:1.45}
+.numbers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;padding:18px 0;border-block:1px solid var(--line)}
+.numbers div{display:grid;gap:2px;min-width:0}
+.numbers b{font:600 30px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.numbers span{font-size:13px;color:var(--muted)}
+.niches{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.niche{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:12px;align-content:start;min-width:0}
+.niche ul{margin:0;padding-left:18px;display:grid;gap:8px;font-size:15px}
+.niche .num{font-family:var(--mono);font-size:14px;color:var(--mark);font-variant-numeric:tabular-nums}
+.niche .links{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px}
+.rec{border-left:3px solid var(--accent);padding:2px 0 2px 16px;display:grid;gap:6px}
+.rec q{font-style:italic;color:var(--accent)}
+.rec small{color:var(--muted);font-size:14px}
+pre{margin:0;background:var(--code);border-radius:8px;padding:16px;overflow-x:auto;font:13px/1.55 var(--mono);color:var(--ink)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:start}
+.note{font-size:14px;color:var(--muted)}
+.limits{margin:0;padding-left:18px;display:grid;gap:6px;color:var(--muted);font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:10px;align-content:start;min-width:0}
+.card ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font:12px var(--mono);background:var(--accent-soft);color:var(--accent);border-radius:4px;padding:2px 8px}
+footer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px}
+@media (max-width:760px){
+  .pipeline{grid-template-columns:1fr 1fr}
+  .numbers{grid-template-columns:1fr 1fr}
+  .niches,.cards,.two{grid-template-columns:1fr}
+}
+</style>
+
+<main>
+  <header class="stack">
+    <p class="label">Portfolio · Berlin</p>
+    <h1>Roman Huber</h1>
+    <p class="role">Performance marketer turned AI marketer. Two years buying Facebook Ads; now I build Claude agents that study competitors' creatives and tell a team what to make next.</p>
+    <div class="contacts">
+      <span>Email <b>romanxhuber@gmail.com</b></span>
+      <span>Telegram <b>@callmeonetwo</b></span>
+      <span>GitHub <a href="https://github.com/callmeonetwo">callmeonetwo</a></span>
+    </div>
+  </header>
+
+  <section class="section" id="ad-intel">
+    <p class="label">Case study · 2026</p>
+    <h2>Ad Intel Agent</h2>
+    <p class="lead">A media buyer spends hours scrolling the Ad Library to work out what competitors run and why. This agent does that research end to end and hands back a short report with recommendations a creative team can brief the same day.</p>
+
+    <div class="stack">
+      <h3>The task</h3>
+      <p>Given a niche, a country and a list of brands, find out which ads and Reels are working for competitors, what they have in common, which formats nobody uses yet, and turn that into 5–7 concrete creative recommendations. Use only public data and stay honest about what the data can and cannot prove.</p>
+    </div>
+
+    <div class="stack">
+      <h3>The approach</h3>
+      <ol class="pipeline">
+        <li><b>Collect</b><span>Apify pulls active ads from the Meta Ad Library and Reels from Instagram.</span></li>
+        <li><b>Tag</b><span>Claude Haiku labels each creative as JSON: hook, promise, angle, emotion, format, proof, urgency, offer, CTA.</span></li>
+        <li><b>Score</b><span>Ads by days live, a proxy for payback. Reels by views against the account median.</span></li>
+        <li><b>Find patterns</b><span>Plain Python counting, so every number in the report can be traced.</span></li>
+        <li><b>Report</b><span>Claude Sonnet writes findings and recommendations from the counts. HTML and Markdown with charts.</span></li>
+      </ol>
+      <p class="note">Marketplaces such as SHEIN and Alibaba run automated catalog ads, so the agent analyses them apart from direct competitors. Each run is saved, and the next weekly run reports what changed.</p>
+    </div>
+
+    <div class="numbers">
+      <div><b>180</b><span>active ads analysed</span></div>
+      <div><b>14</b><span>brand Reels scored</span></div>
+      <div><b>58</b><span>advertisers profiled</span></div>
+      <div><b>$0.13</b><span>Claude API cost for both reports</span></div>
+    </div>
+
+    <div class="stack">
+      <h3>What the agent found</h3>
+      <div class="niches">
+        <article class="niche">
+          <p class="label">Women's swimwear · UK</p>
+          <ul>
+            <li>31 of 60 ads came from marketplaces (SHEIN alone: 28). The agent set them aside and focused on the <span class="num">25</span> ads from direct competitors.</li>
+            <li><span class="num">20 of 25</span> brand ads have run 90+ days. Ads with no offer have a median of <span class="num">237</span> days live, discount ads <span class="num">163</span>: discounts are not what keeps ads running.</li>
+            <li>No direct competitor uses urgency (<span class="num">0%</span>), and social proof appears in only <span class="num">12%</span> of brand ads.</li>
+            <li>Triangl Reels: median <span class="num">79,976</span> views. 15–20 s clips reach a median of <span class="num">92,078</span>, under 15 s <span class="num">54,114</span>. A creator collab hit <span class="num">678,127</span>, 8.5× the brand median.</li>
+          </ul>
+          <div class="links"><a href="reports/swimwear_uk.html">Full report</a><a href="reports/swimwear_uk_creatives.csv">Tagged creatives (CSV)</a></div>
+        </article>
+        <article class="niche">
+          <p class="label">AI tools and apps · US</p>
+          <ul>
+            <li>120 ads from 38 advertisers, but only <span class="num">61</span> unique copies. Nexus runs <span class="num">35</span> ads from <span class="num">5</span> texts.</li>
+            <li>Static images run longest: median <span class="num">224</span> days, against <span class="num">79</span> for video and <span class="num">29</span> for dynamic creative.</li>
+            <li>Template copy fills <span class="num">75%</span> of newer ads but only <span class="num">9%</span> of ads live 90+ days. Free trials appear in <span class="num">46</span> ads, nearly all recent.</li>
+            <li>Social proof shows up in <span class="num">20%</span> of long-running ads and <span class="num">8%</span> of newer ones; overall it is underused.</li>
+          </ul>
+          <div class="links"><a href="reports/ai_tools_us.html">Full report</a><a href="reports/ai_tools_us_creatives.csv">Tagged creatives (CSV)</a></div>
+        </article>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="stack">
+        <h3>Sample recommendations</h3>
+        <div class="rec">
+          <b>Swimwear: lead with fit in catalog ads, keep discounts out of the first line</b>
+          <small>Catalog ads make up 75% of brand ads live 90+ days; Bravissimo's fit-led ads run a median of 237 days.</small>
+        </div>
+        <div class="rec">
+          <b>Swimwear: shoot 15–20 s original-audio lifestyle Reels as a series</b>
+          <small>15–20 s Reels get a median 92,078 views (n=7) against 54,114 under 15 s.</small>
+        </div>
+        <div class="rec">
+          <b>AI app: launch a static image set with one specific outcome each</b>
+          <q>Turn a rough draft into a finished page in one tap.</q>
+          <small>Static images have the longest median run (224 days, n=24).</small>
+        </div>
+      </div>
+      <div class="stack">
+        <h3>One tagged creative</h3>
+        <pre>{
+  "brand": "Kong",
+  "hook_type": "shock",
+  "hook_text": "This thing is batsh*t CRAZY! It
+    increased my ROAS 72% INSTANTLY",
+  "angle": "ROAS uplift",
+  "emotion": "aspiration",
+  "creative_format": "talking_head",
+  "social_proof": true,
+  "offer": "guarantee",
+  "cta": "learn_more",
+  "is_template_copy": false
+}</pre>
+        <p class="note">Haiku output for one US ad, validated against a fixed schema. Kong's two ads in the set ran 313 and 367 days.</p>
+      </div>
+    </div>
+
+    <div class="stack">
+      <h3>Stack and limits</h3>
+      <div class="tags"><span>Python</span><span>Claude API</span><span>Haiku 5.5 for tagging</span><span>Sonnet 5.5 for the report</span><span>Structured outputs</span><span>Apify</span><span>Meta Ad Library</span><span>Claude Code</span></div>
+      <ul class="limits">
+        <li>Days live is a proxy for payback, since Meta does not publish spend or results for most commercial ads.</li>
+        <li>Tags come from ad copy and format data. Image and video analysis is the next step.</li>
+        <li>Samples are small, and the reports mark small groups as directional. Findings are research, not a guarantee of results.</li>
+      </ul>
+      <p><a href="https://github.com/callmeonetwo/ad-intel-agent">Code on GitHub</a> · runs with one command: <code>python agent.py</code></p>
+    </div>
+  </section>
+
+  <section class="section" id="other">
+    <p class="label">Other projects</p>
+    <div class="cards">
+      <article class="card">
+        <h3>FootClaw</h3>
+        <p class="note">AI-powered football analytics platform · 2026 · <a href="https://www.footclaw.website">footclaw.website</a></p>
+        <ul>
+          <li>Live website with AI match briefs on Claude Haiku, sign-up, subscriptions and online payments, plus a Telegram bot.</li>
+          <li>Multi-agent prediction pipeline on Claude: five analyst agents, a lead agent with tool use, a critic and a final decision layer.</li>
+          <li>Built with Claude Code: 750+ commits and 1,200+ automated tests.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Instagram strategy for a swimwear brand</h3>
+        <p class="note">Organic growth project · 2026</p>
+        <ul>
+          <li>Research on how Instagram decides who sees a Reel, aimed at shifting a founder's audience toward women, the brand's buyers.</li>
+          <li>Account structure for the founder and the brand, content rubrics and a roadmap.</li>
+          <li>Competitor research on swimwear brands, which became the first demo niche for Ad Intel Agent.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <footer>Roman Huber · Berlin · Built with Claude Code</footer>
+</main>

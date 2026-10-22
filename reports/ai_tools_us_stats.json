@@ -1,0 +1,1314 @@
+{
+ "snapshot": "2026-10-22",
+ "ads": {
+  "totals": {
+   "ads": 120,
+   "labeled": 120,
+   "brand_ads": 120,
+   "marketplace_ads": 0,
+   "off_niche_ads": 0,
+   "all_ads_still_active": true,
+   "brands": 38,
+   "unique_brand_copies": 61,
+   "winners_90d": 35,
+   "median_days_live_brand": 63.5
+  },
+  "segments": {
+   "brand": 120
+  },
+  "display_format_all": {
+   "DCO": 55,
+   "VIDEO": 40,
+   "IMAGE": 24,
+   "CAROUSEL": 1
+  },
+  "display_format_brand": {
+   "DCO": 55,
+   "VIDEO": 40,
+   "IMAGE": 24,
+   "CAROUSEL": 1
+  },
+  "creative_format_brand": {
+   "catalog": 57,
+   "graphic": 24,
+   "app_demo": 22,
+   "product_video": 8,
+   "ugc": 4,
+   "talking_head": 3,
+   "influencer": 1,
+   "other": 1
+  },
+  "hook_type_brand": {
+   "statement": 53,
+   "offer": 21,
+   "none": 13,
+   "promise": 12,
+   "question": 6,
+   "shock": 4,
+   "social_proof": 4,
+   "benefit_list": 3,
+   "story": 3,
+   "ugc": 1
+  },
+  "offer_brand": {
+   "none": 66,
+   "free_trial": 46,
+   "lead_magnet": 3,
+   "guarantee": 2,
+   "discount": 2,
+   "giveaway": 1
+  },
+  "emotion_brand": {
+   "aspiration": 52,
+   "curiosity": 47,
+   "fomo": 9,
+   "trust": 8,
+   "neutral": 3,
+   "joy": 1
+  },
+  "cta_brand": {
+   "install": 66,
+   "learn_more": 26,
+   "sign_up": 13,
+   "other": 10,
+   "shop": 5
+  },
+  "angles_brand": [
+   [
+    "ai video creation",
+    18
+   ],
+   [
+    "ai photo editing",
+    12
+   ],
+   [
+    "free download",
+    10
+   ],
+   [
+    "photo trend",
+    7
+   ],
+   [
+    "ai image generation",
+    4
+   ],
+   [
+    "ai photo creation",
+    4
+   ],
+   [
+    "time saving",
+    3
+   ],
+   [
+    "book creation",
+    3
+   ],
+   [
+    "book writing",
+    3
+   ],
+   [
+    "productivity",
+    3
+   ],
+   [
+    "speed creation",
+    3
+   ],
+   [
+    "job search",
+    2
+   ]
+  ],
+  "longevity_brand": {
+   "30-89 days": 46,
+   "<30 days": 39,
+   "90+ days": 35
+  },
+  "social_proof_share_brand": 11.7,
+  "urgency_share_brand": 8.3,
+  "template_copy_share_marketplace": 0.0,
+  "median_days_by_display_format": [
+   {
+    "group": "IMAGE",
+    "n": 24,
+    "median": 224
+   },
+   {
+    "group": "VIDEO",
+    "n": 40,
+    "median": 79
+   },
+   {
+    "group": "DCO",
+    "n": 55,
+    "median": 29
+   }
+  ],
+  "median_days_by_hook": [
+   {
+    "group": "story",
+    "n": 3,
+    "median": 180
+   },
+   {
+    "group": "benefit_list",
+    "n": 3,
+    "median": 142
+   },
+   {
+    "group": "shock",
+    "n": 4,
+    "median": 129
+   },
+   {
+    "group": "question",
+    "n": 6,
+    "median": 123
+   },
+   {
+    "group": "promise",
+    "n": 12,
+    "median": 114
+   },
+   {
+    "group": "none",
+    "n": 13,
+    "median": 85
+   },
+   {
+    "group": "offer",
+    "n": 21,
+    "median": 32
+   },
+   {
+    "group": "statement",
+    "n": 53,
+    "median": 30
+   },
+   {
+    "group": "social_proof",
+    "n": 4,
+    "median": 12
+   }
+  ],
+  "median_days_by_creative_format": [
+   {
+    "group": "graphic",
+    "n": 24,
+    "median": 224
+   },
+   {
+    "group": "talking_head",
+    "n": 3,
+    "median": 128
+   },
+   {
+    "group": "product_video",
+    "n": 8,
+    "median": 104
+   },
+   {
+    "group": "app_demo",
+    "n": 22,
+    "median": 82
+   },
+   {
+    "group": "ugc",
+    "n": 4,
+    "median": 46
+   },
+   {
+    "group": "catalog",
+    "n": 57,
+    "median": 29
+   }
+  ],
+  "median_days_by_offer": [
+   {
+    "group": "guarantee",
+    "n": 2,
+    "median": 340
+   },
+   {
+    "group": "lead_magnet",
+    "n": 3,
+    "median": 227
+   },
+   {
+    "group": "discount",
+    "n": 2,
+    "median": 140
+   },
+   {
+    "group": "none",
+    "n": 66,
+    "median": 84
+   },
+   {
+    "group": "free_trial",
+    "n": 46,
+    "median": 29
+   }
+  ],
+  "long_runners_vs_newer": [
+   {
+    "feature": "social proof",
+    "share_in_live_90d_plus": 20.0,
+    "share_in_newer_still_running": 8.2,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   },
+   {
+    "feature": "urgency",
+    "share_in_live_90d_plus": 5.7,
+    "share_in_newer_still_running": 9.4,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   },
+   {
+    "feature": "any offer",
+    "share_in_live_90d_plus": 25.7,
+    "share_in_newer_still_running": 52.9,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   },
+   {
+    "feature": "video format",
+    "share_in_live_90d_plus": 31.4,
+    "share_in_newer_still_running": 34.1,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   },
+   {
+    "feature": "catalog/DPA format",
+    "share_in_live_90d_plus": 0.0,
+    "share_in_newer_still_running": 0.0,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   },
+   {
+    "feature": "dynamic creative (DCO)",
+    "share_in_live_90d_plus": 14.3,
+    "share_in_newer_still_running": 58.8,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   },
+   {
+    "feature": "template copy",
+    "share_in_live_90d_plus": 8.6,
+    "share_in_newer_still_running": 75.3,
+    "n_live_90d_plus": 35,
+    "n_newer": 85
+   }
+  ],
+  "per_brand": [
+   {
+    "brand": "Nexus - AI Video Generator",
+    "segment": "brand",
+    "ads": 35,
+    "unique_copies": 5,
+    "median_days_live": 29,
+    "max_days_live": 65,
+    "formats": {
+     "DCO": 31,
+     "VIDEO": 4
+    },
+    "hooks": {
+     "statement": 22,
+     "offer": 13
+    },
+    "angles": [
+     "ai video creation",
+     "free download",
+     "ai image generation"
+    ],
+    "offers": {
+     "free_trial": 35
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 94.3
+   },
+   {
+    "brand": "SmithBook",
+    "segment": "brand",
+    "ads": 13,
+    "unique_copies": 11,
+    "median_days_live": 224,
+    "max_days_live": 255,
+    "formats": {
+     "IMAGE": 13
+    },
+    "hooks": {
+     "statement": 10,
+     "promise": 1,
+     "question": 1,
+     "shock": 1
+    },
+    "angles": [
+     "book creation",
+     "clear writing path",
+     "book writing"
+    ],
+    "offers": {
+     "none": 13
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Picshiner - Photo AI Editor",
+    "segment": "brand",
+    "ads": 7,
+    "unique_copies": 1,
+    "median_days_live": 21,
+    "max_days_live": 21,
+    "formats": {
+     "DCO": 7
+    },
+    "hooks": {
+     "statement": 7
+    },
+    "angles": [
+     "photo trend"
+    ],
+    "offers": {
+     "none": 7
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "AI Photo Editor",
+    "segment": "brand",
+    "ads": 7,
+    "unique_copies": 5,
+    "median_days_live": 45,
+    "max_days_live": 84,
+    "formats": {
+     "VIDEO": 6,
+     "DCO": 1
+    },
+    "hooks": {
+     "promise": 2,
+     "shock": 2,
+     "statement": 1,
+     "ugc": 1,
+     "question": 1
+    },
+    "angles": [
+     "product photos",
+     "haircut try-on",
+     "ai hairstyle"
+    ],
+    "offers": {
+     "none": 7
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 14.3
+   },
+   {
+    "brand": "Jenni AI",
+    "segment": "brand",
+    "ads": 5,
+    "unique_copies": 4,
+    "median_days_live": 48,
+    "max_days_live": 80,
+    "formats": {
+     "DCO": 5
+    },
+    "hooks": {
+     "offer": 3,
+     "social_proof": 2
+    },
+    "angles": [
+     "research assistant",
+     "time saving",
+     "academic research"
+    ],
+    "offers": {
+     "free_trial": 5
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Francis Hughes",
+    "segment": "brand",
+    "ads": 5,
+    "unique_copies": 1,
+    "median_days_live": 86,
+    "max_days_live": 86,
+    "formats": {
+     "VIDEO": 5
+    },
+    "hooks": {
+     "none": 5
+    },
+    "angles": [
+     "ai photo editing"
+    ],
+    "offers": {
+     "none": 5
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Kieran Morris",
+    "segment": "brand",
+    "ads": 4,
+    "unique_copies": 1,
+    "median_days_live": 70.5,
+    "max_days_live": 85,
+    "formats": {
+     "VIDEO": 4
+    },
+    "hooks": {
+     "none": 4
+    },
+    "angles": [
+     "ai photo editing"
+    ],
+    "offers": {
+     "none": 4
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "CoolDeep.AI",
+    "segment": "brand",
+    "ads": 3,
+    "unique_copies": 1,
+    "median_days_live": 227,
+    "max_days_live": 230,
+    "formats": {
+     "IMAGE": 3
+    },
+    "hooks": {
+     "offer": 3
+    },
+    "angles": [
+     "free download"
+    ],
+    "offers": {
+     "lead_magnet": 3
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Mason Lee Long",
+    "segment": "brand",
+    "ads": 3,
+    "unique_copies": 1,
+    "median_days_live": 78,
+    "max_days_live": 78,
+    "formats": {
+     "VIDEO": 3
+    },
+    "hooks": {
+     "none": 3
+    },
+    "angles": [
+     "ai photo editing"
+    ],
+    "offers": {
+     "none": 3
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "AI Video Maker & Photo Editor",
+    "segment": "brand",
+    "ads": 3,
+    "unique_copies": 1,
+    "median_days_live": 71,
+    "max_days_live": 71,
+    "formats": {
+     "VIDEO": 3
+    },
+    "hooks": {
+     "promise": 3
+    },
+    "angles": [
+     "speed creation"
+    ],
+    "offers": {
+     "free_trial": 3
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Enhancv",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 1,
+    "median_days_live": 162.0,
+    "max_days_live": 177,
+    "formats": {
+     "VIDEO": 2
+    },
+    "hooks": {
+     "question": 2
+    },
+    "angles": [
+     "job search"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Kong",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 2,
+    "median_days_live": 340.0,
+    "max_days_live": 367,
+    "formats": {
+     "VIDEO": 2
+    },
+    "hooks": {
+     "shock": 1,
+     "promise": 1
+    },
+    "angles": [
+     "roas uplift"
+    ],
+    "offers": {
+     "guarantee": 2
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Google Workspace",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 2,
+    "median_days_live": 79.0,
+    "max_days_live": 79,
+    "formats": {
+     "IMAGE": 1,
+     "DCO": 1
+    },
+    "hooks": {
+     "statement": 1,
+     "benefit_list": 1
+    },
+    "angles": [
+     "ai delegation",
+     "time saving"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 50.0
+   },
+   {
+    "brand": "Vid.ai",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 1,
+    "median_days_live": 247.5,
+    "max_days_live": 249,
+    "formats": {
+     "IMAGE": 2
+    },
+    "hooks": {
+     "promise": 2
+    },
+    "angles": [
+     "faceless video income"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Grammarly",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 1,
+    "median_days_live": 9.0,
+    "max_days_live": 11,
+    "formats": {
+     "IMAGE": 2
+    },
+    "hooks": {
+     "statement": 2
+    },
+    "angles": [
+     "productivity"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Scribe",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 1,
+    "median_days_live": 3.0,
+    "max_days_live": 3,
+    "formats": {
+     "DCO": 2
+    },
+    "hooks": {
+     "social_proof": 2
+    },
+    "angles": [
+     "process documentation"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "VideoExpress.ai",
+    "segment": "brand",
+    "ads": 2,
+    "unique_copies": 1,
+    "median_days_live": 142.5,
+    "max_days_live": 143,
+    "formats": {
+     "VIDEO": 2
+    },
+    "hooks": {
+     "benefit_list": 2
+    },
+    "angles": [
+     "pet animation"
+    ],
+    "offers": {
+     "none": 2
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "The Rundown",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 143,
+    "max_days_live": 143,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "promise": 1
+    },
+    "angles": [
+     "ai skills"
+    ],
+    "offers": {
+     "free_trial": 1
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Grok by SpaceXAI",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 3,
+    "max_days_live": 3,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "story": 1
+    },
+    "angles": [
+     "no-code ai employees"
+    ],
+    "offers": {
+     "giveaway": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Jared Scott",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 128,
+    "max_days_live": 128,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "promise": 1
+    },
+    "angles": [
+     "speaker bookings"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Vidix-AI Photo Video Generator",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 90,
+    "max_days_live": 90,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "offer": 1
+    },
+    "angles": [
+     "free filter"
+    ],
+    "offers": {
+     "free_trial": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Scribist IQ AI Book Generation",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 83,
+    "max_days_live": 83,
+    "formats": {
+     "IMAGE": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "book writing"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "AINOTE",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 180,
+    "max_days_live": 180,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "story": 1
+    },
+    "angles": [
+     "productivity"
+    ],
+    "offers": {
+     "discount": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Vidix AI Photo Video Generator",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 322,
+    "max_days_live": 322,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "easy video creation"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Csaba Borzasi",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 216,
+    "max_days_live": 216,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "story": 1
+    },
+    "angles": [
+     "email welcome sequences"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Getsolved AI",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 3,
+    "max_days_live": 3,
+    "formats": {
+     "CAROUSEL": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "study planning"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Lifestyle Founders Group",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 99,
+    "max_days_live": 99,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "question": 1
+    },
+    "angles": [
+     "ai coaching business"
+    ],
+    "offers": {
+     "discount": 1
+    },
+    "social_proof_share": 100.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Phrasly.AI",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 64,
+    "max_days_live": 64,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "question": 1
+    },
+    "angles": [
+     "all-in-one writing"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Sondo ai-Xavier-2",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 41,
+    "max_days_live": 41,
+    "formats": {
+     "IMAGE": 1
+    },
+    "hooks": {
+     "none": 1
+    },
+    "angles": [
+     "ai music generation"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "PhotoVerse AI Photo Editor With Music",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 182,
+    "max_days_live": 182,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "ai hairstyle"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "AI Generate Video $ Photo",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 85,
+    "max_days_live": 85,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "offer": 1
+    },
+    "angles": [
+     "ai video template"
+    ],
+    "offers": {
+     "free_trial": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Darla Webb",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 77,
+    "max_days_live": 77,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "one tap editing"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Rodriguez Toma Ryan",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 131,
+    "max_days_live": 131,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "photo collage"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "ArtPic: Photo & Video Editor",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 16,
+    "max_days_live": 16,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "ai photo trend"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Visionary AI",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 100,
+    "max_days_live": 100,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "promise": 1
+    },
+    "angles": [
+     "style variety"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "SnapEdit",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 231,
+    "max_days_live": 231,
+    "formats": {
+     "IMAGE": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "holi festival"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   },
+   {
+    "brand": "Retake AI: Face & Photo Editor",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 32,
+    "max_days_live": 32,
+    "formats": {
+     "DCO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "self improvement"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 100.0
+   },
+   {
+    "brand": "Vids.app",
+    "segment": "brand",
+    "ads": 1,
+    "unique_copies": 1,
+    "median_days_live": 80,
+    "max_days_live": 80,
+    "formats": {
+     "VIDEO": 1
+    },
+    "hooks": {
+     "statement": 1
+    },
+    "angles": [
+     "social growth"
+    ],
+    "offers": {
+     "none": 1
+    },
+    "social_proof_share": 0.0,
+    "template_copy_share": 0.0
+   }
+  ],
+  "longest_running_examples": [
+   {
+    "brand": "Kong",
+    "format": "VIDEO",
+    "days_live": 367,
+    "start": "2025-09-03",
+    "url": "https://www.facebook.com/ads/library/?id=793270979901757",
+    "headline": "1000's Of Proven Ads in Seconds",
+    "text": "This thing is batsh*t CRAZY! It increased my ROAS 72% INSTANTLY”\n\nIt requires zero change to your business.\n\nYou paste in some basic info about your biz.\n\nAnd it spits out high-converting ads (creative + copy).\n\nYou paste ‘em into your ads manager.\n\nAd performance skyrockets.\n\nROAS improves.\n\nAds scale.\n\nYou make more moolah.\n\nSo if you’d like:\n\n🌶️ Guaranteed 20% Uplift In ROAS\n🔥 1000's Of Proven ",
+    "hook_type": "promise",
+    "angle": "ROAS uplift",
+    "main_promise": "AI generates high-converting ads and guarantees 20% ROAS uplift",
+    "offer": "guarantee",
+    "social_proof": "Personal testimonial claiming 72% ROAS increase"
+   },
+   {
+    "brand": "Vidix AI Photo Video Generator",
+    "format": "VIDEO",
+    "days_live": 322,
+    "start": "2025-12-04",
+    "url": "https://www.facebook.com/ads/library/?id=876852742006091",
+    "headline": null,
+    "text": "Create Vlog Like This Easily:",
+    "hook_type": "statement",
+    "angle": "easy video creation",
+    "main_promise": "Make vlog-style videos easily with the app",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Kong",
+    "format": "VIDEO",
+    "days_live": 313,
+    "start": "2025-10-27",
+    "url": "https://www.facebook.com/ads/library/?id=1763243594393368",
+    "headline": "1000's Of Proven Ads in Seconds",
+    "text": "“This thing is batsh*t CRAZY! It increased my ROAS 72% INSTANTLY”\n\nIt requires zero change to your business.\n\nYou paste in some basic info about your biz.\n\nAnd it spits out high-converting ads (creative + copy).\n\nYou paste ‘em into your ads manager.\n\nAd performance skyrockets.\n\nROAS improves.\n\nAds scale.\n\nYou make more moolah.\n\nSo if you’d like:\n\n🌶️ Guaranteed 20% Uplift In ROAS\n\n🔥 1000's Of Prove",
+    "hook_type": "shock",
+    "angle": "ROAS uplift",
+    "main_promise": "AI generates high-converting ads that lift ROAS",
+    "offer": "guarantee",
+    "social_proof": "Testimonial claiming 72% ROAS increase"
+   },
+   {
+    "brand": "SmithBook",
+    "format": "IMAGE",
+    "days_live": 255,
+    "start": "2026-02-09",
+    "url": "https://www.facebook.com/ads/library/?id=26300258832915468",
+    "headline": "Smith Books Generator",
+    "text": "From draft to manuscript in one click. The future of writing is here, and it’s more organized than you ever imagined.\n#bookgram",
+    "hook_type": "promise",
+    "angle": "one-click writing",
+    "main_promise": "Turn a draft into a manuscript in one click",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "SmithBook",
+    "format": "IMAGE",
+    "days_live": 255,
+    "start": "2026-02-09",
+    "url": "https://www.facebook.com/ads/library/?id=909136708534175",
+    "headline": "Smith Books Generator",
+    "text": "Every great book needs a strong backbone. 📚✨\nBuild yours in minutes.\n#bookgram",
+    "hook_type": "statement",
+    "angle": "fast book building",
+    "main_promise": "Build a book in minutes with Smithbook",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "SmithBook",
+    "format": "IMAGE",
+    "days_live": 255,
+    "start": "2026-02-09",
+    "url": "https://www.facebook.com/ads/library/?id=2199094040896261",
+    "headline": "Smith Books Generator",
+    "text": "The skeleton of your success. 🦴 Every great book needs a solid foundation. At Smithbook, we deliver your story’s DNA ready to come to life.\n#bookgram",
+    "hook_type": "statement",
+    "angle": "book creation",
+    "main_promise": "Turn your story into a book with SmithBook",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "SmithBook",
+    "format": "IMAGE",
+    "days_live": 255,
+    "start": "2026-02-09",
+    "url": "https://www.facebook.com/ads/library/?id=922458596906275",
+    "headline": "Smith Books Generator",
+    "text": "Your book, powered by cutting-edge technology. 🚀 Smithbook transforms your ideas into structured manuscripts in record time.\n#bookgram",
+    "hook_type": "statement",
+    "angle": "book writing",
+    "main_promise": "Turn ideas into structured manuscripts quickly",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "SmithBook",
+    "format": "IMAGE",
+    "days_live": 253,
+    "start": "2026-02-11",
+    "url": "https://www.facebook.com/ads/library/?id=2959390334249561",
+    "headline": "Smith Books Generator",
+    "text": "Your expertise deserves a structure.\nBuild your book’s blueprint today.\n👉 TRY NOW",
+    "hook_type": "statement",
+    "angle": "book structure",
+    "main_promise": "Build your book blueprint today",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "Vid.ai",
+    "format": "IMAGE",
+    "days_live": 249,
+    "start": "2026-02-15",
+    "url": "https://www.facebook.com/ads/library/?id=1231873411756496",
+    "headline": "Faceless Videos on Autopilot",
+    "text": "Everything you need to make faceless videos that get views and print money on autopilot 👇\n\nMake money on autopilot with faceless LONG FORM videos!👇\n✅ AI video generator\n✅ 40+ human-like voices\n✅ Auto captions & music\n✅ AI script generator\n✅ Create viral short & long form videos\n✅ Faceless stock visuals\n✅ Split screen & game B-roll\n✅ Fake viral text message generator\n\nVidAI = 8 tools in 1.\n\nStart f",
+    "hook_type": "promise",
+    "angle": "faceless video income",
+    "main_promise": "Make money with faceless videos on autopilot",
+    "offer": "none",
+    "social_proof": ""
+   },
+   {
+    "brand": "SnapEdit",
+    "format": "IMAGE",
+    "days_live": 231,
+    "start": "2026-03-05",
+    "url": "https://www.facebook.com/ads/library/?id=1444280147097581",
+    "headline": "SnapEdit: Photo Editor AI",
+    "text": "May your Holi be bright and beautiful with SnapEdit 🌈✨\nDon’t forget to download SnapEdit on App Store to edit your festive moments ✨📸\n\n#snapedit #snapeditapp #holifestival #AppStore #photoediting",
+    "hook_type": "statement",
+    "angle": "holi festival",
+    "main_promise": "Edit festive moments with SnapEdit app",
+    "offer": "none",
+    "social_proof": ""
+   }
+  ]
+ },
+ "reels": null,
+ "vs_previous": null
+}
