@@ -60,7 +60,7 @@ pre{margin:0;background:var(--code);border-radius:8px;padding:16px;overflow-x:au
 .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:start}
 .note{font-size:14px;color:var(--muted)}
 .limits{margin:0;padding-left:18px;display:grid;gap:6px;color:var(--muted);font-size:15px}
-.cards{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:10px;align-content:start;min-width:0}
 .card ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:15px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
@@ -189,7 +189,7 @@ footer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);paddin
   </section>
 
   <section class="section" id="other">
-    <p class="label">Other project</p>
+    <p class="label">Other projects</p>
     <div class="cards">
       <article class="card">
         <h3>FootClaw</h3>
@@ -198,6 +198,15 @@ footer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);paddin
           <li>Live website with AI match briefs on Claude Haiku, sign-up, subscriptions and online payments, plus a Telegram bot.</li>
           <li>Multi-agent prediction pipeline on Claude: five analyst agents, a lead agent with tool use, a critic and a final decision layer.</li>
           <li>Built with Claude Code: 750+ commits and 1,200+ automated tests.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Onby</h3>
+        <p class="note">Client prototype · iPhone and Apple Watch app · 09/2026</p>
+        <ul>
+          <li>Built a working prototype on my own in one month with Claude Code: a native Swift app that warns you when you leave something behind, using Bluetooth and Ultra Wideband.</li>
+          <li>230+ commits, automated tests, field tests on real devices and a TestFlight build. The client accepted and paid for the work.</li>
+          <li>Also made the product brochure, a crowdfunding page in German, English and Russian, and a financial plan.</li>
         </ul>
       </article>
     </div>
